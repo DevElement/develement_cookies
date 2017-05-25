@@ -2,7 +2,7 @@
 Saves GET params to cookies in TYPO3
 
 ## Example usage
-``
+```
 $GLOBALS['TYPO3_CONF_VARS']['extConf']['develement_cookies'] = [
     'getParamsToCookies' => [
         'gclid' => [
@@ -47,7 +47,7 @@ $GLOBALS['TYPO3_CONF_VARS']['extConf']['develement_cookies'] = [
         ]
     ]
 ]
-``
+```
 
 ## Installation
 Add the following to the ``repositories`` block in your composer.json:
