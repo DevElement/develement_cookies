@@ -1,0 +1,30 @@
+{
+  "name": "develement/develement-cookies",
+  "description": "TYPO3 Extension: Saves GET params to cookies",
+  "type": "typo3-cms-extension",
+
+  "keywords": [
+    "TYPO3",
+    "CMS",
+    "Bootstrap",
+    "Responsive"
+  ],
+  "homepage": "https://github.com/DevElement/develement_cookies.git",
+  "license": "LGPL-3.0+",
+
+  "autoload": {
+    "psr-4": {
+      "DevElement\\DevelementCookies\\": "Classes/"
+    }
+  },
+
+  "version": "1.0.0",
+
+  "authors": [
+    {
+      "name": "Jesper Paardekooper",
+      "email": "j.paardekooper@develement.nl",
+      "homepage": "https://www.develement.nl"
+    }
+  ]
+}
